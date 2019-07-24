@@ -21,8 +21,6 @@ Your block browser implementation can currently send following keys with the mes
         content: '...', // optional, the HTML for the preview
     }
 
-**The `content`-key of the message will be ignored if you have enabled the block API option!**
-
 ## Block API
 
 To enable the block API option, you just have to configure an URL callback function that will receive the ID of the block and must return the final URL to the block API, p.e.

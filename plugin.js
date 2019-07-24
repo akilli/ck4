@@ -91,10 +91,11 @@
          * ID input
          */
         var id = ev.data.definition.contents[0].elements[0];
-        id.onChange = function () {
+        id.onLoad = function () {
             var dialog = this.getDialog();
-            var content = get(ev.editor.config.blockApi, this.getValue());
-            dialog.getContentElement('info', 'content').setValue(content);
+            this.getInputElement().$.addEventListener('change', function () {
+                dialog.getContentElement('info', 'content').setValue(get(ev.editor.config.blockApi, this.value));
+            });
         };
 
         /**
@@ -107,10 +108,7 @@
                 if (!!data.id) {
                     var dialog = this.getDialog();
                     dialog.getContentElement('info', 'id').setValue(data.id);
-
-                    if (typeof ev.editor.config.blockApi !== 'function') {
-                        dialog.getContentElement('info', 'content').setValue(data.content || '');
-                    }
+                    dialog.getContentElement('info', 'content').setValue(data.content || get(ev.editor.config.blockApi, data.id));
                 }
             };
             browse.browserUrl = ev.editor.config.blockBrowser;
