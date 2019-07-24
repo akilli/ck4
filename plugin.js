@@ -54,7 +54,7 @@
                     return newEl;
                 },
                 downcast: function () {
-                    if (!!this.data.id && (!editor.config.blockApi || !!this.data.content)) {
+                    if (!!this.data.id && (typeof editor.config.blockApi !== 'function' || !!this.data.content)) {
                         return new CKEDITOR.htmlParser.element('block', {'id': this.data.id});
                     }
 
@@ -91,12 +91,10 @@
          * ID input
          */
         var id = ev.data.definition.contents[0].elements[0];
-        id.onLoad = function () {
+        id.onChange = function () {
             var dialog = this.getDialog();
-            this.getInputElement().$.addEventListener('change', function () {
-                var content = get(ev.editor.config.blockApi, this.value);
-                dialog.getContentElement('info', 'content').setValue(content);
-            });
+            var content = get(ev.editor.config.blockApi, this.getValue());
+            dialog.getContentElement('info', 'content').setValue(content);
         };
 
         /**
@@ -108,9 +106,11 @@
             browse.browser = function (data) {
                 if (!!data.id) {
                     var dialog = this.getDialog();
-                    ['id', 'content'].forEach(function (item) {
-                        dialog.getContentElement('info', item).setValue(data[item] || '');
-                    });
+                    dialog.getContentElement('info', 'id').setValue(data.id);
+
+                    if (typeof ev.editor.config.blockApi !== 'function') {
+                        dialog.getContentElement('info', 'content').setValue(data.content || '');
+                    }
                 }
             };
             browse.browserUrl = ev.editor.config.blockBrowser;
