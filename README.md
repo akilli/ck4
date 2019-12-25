@@ -14,4 +14,5 @@ This widget will only allow other widgets as child elements. The filtering now t
 
 ## Demo
 
-https://akilli.github.io/rte/ck4
+- [Classic Editor](https://akilli.github.io/ckeditor4-build-classic/demo)
+- [Inline Editor](https://akilli.github.io/ckeditor4-build-inline/demo)
