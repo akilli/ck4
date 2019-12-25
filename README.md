@@ -45,8 +45,6 @@ This widget will add some minimal CSS to the editor to make the placeholder some
 
 ## Demo
 
-https://akilli.github.io/rte/ck4
-
-## Minimalistic browser example
-
-https://github.com/akilli/demo-browser
+- [Classic Editor](https://akilli.github.io/ckeditor4-build-classic/demo)
+- [Inline Editor](https://akilli.github.io/ckeditor4-build-inline/demo)
+- [Minimalistic Browser](https://github.com/akilli/demo-browser)
