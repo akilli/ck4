@@ -7,7 +7,7 @@
             blockBrowser: '/demo-browser/block.html',
             contentsCss: [
                 '/cms/gui/base.css',
-                'page.css'
+                'index.css'
             ],
             customConfig: '',
             disableNativeSpellChecker: true,
