@@ -49,8 +49,6 @@ Inline media elements initially loaded into the editor content will automaticall
 
 ## Demo
 
-https://akilli.github.io/rte/ck4
-
-## Minimalistic browser example
-
-https://github.com/akilli/demo-browser
+- [Classic Editor](https://akilli.github.io/ckeditor4-build-classic/demo)
+- [Inline Editor](https://akilli.github.io/ckeditor4-build-inline/demo)
+- [Minimalistic Browser](https://github.com/akilli/demo-browser)
