@@ -4,4 +4,4 @@ Custom CKEditor 4 inline build
 
 ## Demo
 
-https://akilli.github.io/rte/ck4/build-inline.html
+https://akilli.github.io/ckeditor4-build-inline/demo

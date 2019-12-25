@@ -1,0 +1,28 @@
+version: "3.7"
+networks:
+  default:
+    external:
+      name: proxy
+services:
+  ck4-inline:
+    container_name: ck4-inline
+    image: akilli/nginx
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.rte.entrypoints=https"
+      - "traefik.http.routers.rte.rule=host(`ck4-inline.app.loc`)"
+      - "traefik.http.routers.rte.tls=true"
+      - "traefik.http.services.rte.loadbalancer.server.port=80"
+    extra_hosts:
+      - "ck4-inline.app.loc:127.0.0.1"
+    volumes:
+      - source: .
+        target: /srv
+        type: bind
+      - source: ../cms
+        target: /opt/cms
+        type: bind
+      - source: ../demo-browser
+        target: /opt/demo-browser
+        type: bind
