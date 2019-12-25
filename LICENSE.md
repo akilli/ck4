@@ -12,6 +12,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## CKEditor 4
 
-Copyright (c) 2003-2019, CKSource Frederico Knabben. All rights reserved. 
+Copyright (c) 2003-2019, CKSource Frederico Knabben
 
-Licensed under the terms of [GNU General Public License Version 2 or later](http://www.gnu.org/licenses/gpl.html). For full details about the license, please check [https://ckeditor.com/legal/ckeditor-oss-license](https://ckeditor.com/legal/ckeditor-oss-license).
+For licensing, see https://ckeditor.com/legal/ckeditor-oss-license
