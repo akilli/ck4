@@ -5,10 +5,7 @@
         const editor = CKEDITOR.replace(document.getElementById('rte'), {
             blockApi: id => isNaN(id) ? null : '/demo-browser/api/' + id,
             blockBrowser: '/demo-browser/block.html',
-            contentsCss: [
-                '/cms/gui/base.css',
-                'page.css'
-            ],
+            contentsCss: '',
             customConfig: '',
             disableNativeSpellChecker: true,
             fillEmptyBlocks: false,
