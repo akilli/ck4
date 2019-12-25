@@ -4,4 +4,4 @@ Custom CKEditor 4 classic build
 
 ## Demo
 
-https://akilli.github.io/rte/ck4/build-classic.html
+https://akilli.github.io/ckeditor4-build-classic/demo
