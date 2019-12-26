@@ -35,7 +35,6 @@ var CKBUILDER_CONFIG = {
         'browser': 1,
         'detail': 1,
         'enterkey': 1,
-        'floatingspace': 1,
         'format': 1,
         'gallery': 1,
         'grid': 1,
