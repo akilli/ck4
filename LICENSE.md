@@ -10,8 +10,10 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## CKEditor 4
+## ckeditor 4
 
 Copyright (c) 2003-2019, CKSource Frederico Knabben
 
-For licensing, see https://ckeditor.com/legal/ckeditor-oss-license
+Licensed under the GPL, LGPL, and MPL licenses, at your choice.
+
+Please check https://ckeditor.com/legal/ckeditor-oss-license for more information about the ckeditor 4 license.
