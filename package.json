@@ -1,0 +1,27 @@
+{
+  "name": "@akilli/ckeditor4-build-inline",
+  "version": "0.0.0",
+  "description": "Custom CKEditor 4 inline build",
+  "keywords": [
+    "ckeditor",
+    "ckeditor4",
+    "ckeditor 4",
+    "ckeditor4-build",
+    "editor",
+    "rich-text",
+    "richtext",
+    "wysiwyg",
+    "wysiwym"
+  ],
+  "author": "Ayhan Akilli",
+  "license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
+  "bugs": "https://github.com/akilli/ckeditor4-build-inline/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akilli/ckeditor4-build-inline.git"
+  },
+  "main": "./dist/ckeditor.js",
+  "files": [
+    "dist"
+  ]
+}
