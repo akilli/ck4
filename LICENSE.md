@@ -2,7 +2,7 @@
 
 ## akilli CKEditor 4 widgets
 
-Copyright (c) 2019 Ayhan Akilli
+Copyright (c) 2020 Ayhan Akilli
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -12,7 +12,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## ckeditor 4
 
-Copyright (c) 2003-2019, CKSource Frederico Knabben
+Copyright (c) 2003-2020, CKSource Frederico Knabben
 
 Licensed under the GPL, LGPL, and MPL licenses, at your choice.
 
