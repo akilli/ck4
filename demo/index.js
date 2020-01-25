@@ -6,7 +6,7 @@
             blockApi: id => isNaN(id) ? null : '/demo-browser/api/' + id,
             blockBrowser: '/demo-browser/block.html',
             contentsCss: [
-                '/cms/gui/base.css',
+                'https://akilli.github.io/cms/gui/base.css',
                 '/demo-browser/page.css'
             ],
             customConfig: '',
