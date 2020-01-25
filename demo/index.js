@@ -3,8 +3,8 @@
 (function (document, CKEDITOR) {
     document.addEventListener('DOMContentLoaded', () => {
         const editor = CKEDITOR.replace(document.getElementById('rte'), {
-            blockApi: id => isNaN(id) ? null : '/demo-browser/api/' + id,
-            blockBrowser: '/demo-browser/block.html',
+            blockApi: id => isNaN(id) ? null : 'https://akilli.github.io/demo-browser/api/' + id,
+            blockBrowser: 'https://akilli.github.io/demo-browser/block.html',
             contentsCss: '',
             customConfig: '',
             disableNativeSpellChecker: true,
@@ -12,8 +12,7 @@
             format_tags: 'p;h2;h3',
             height: '30rem',
             language: 'de',
-            mediaBrowser: '/demo-browser/media.html',
-            mediabrowserUrl: '/demo-browser/media.html',
+            mediaBrowser: 'https://akilli.github.io/demo-browser/media.html',
             removeDialogTabs: 'link:advanced;link:target',
             section: {
                 'block-content': 'Inhaltsblock',
