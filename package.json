@@ -1,6 +1,6 @@
 {
   "name": "@akilli/ckeditor4-build-classic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Custom CKEditor 4 classic build",
   "keywords": [
     "ckeditor",
