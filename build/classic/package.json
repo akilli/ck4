@@ -1,7 +1,7 @@
 {
-  "name": "@akilli/ckeditor4-build-inline",
+  "name": "@akilli/ckeditor4-build-classic",
   "version": "0.1.0",
-  "description": "Custom CKEditor 4 inline build",
+  "description": "Custom CKEditor 4 classic build",
   "keywords": [
     "ckeditor",
     "ckeditor4",
@@ -15,12 +15,12 @@
   ],
   "author": "Ayhan Akilli",
   "license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
-  "bugs": "https://github.com/akilli/ckeditor4-build-inline/issues",
+  "bugs": "https://github.com/akilli/ckeditor4-build-classic/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akilli/ckeditor4-build-inline.git"
+    "url": "https://github.com/akilli/ckeditor4-build-classic.git"
   },
-  "main": "./dist/ckeditor.js",
+  "main": "dist/ckeditor.js",
   "files": [
     "dist"
   ]

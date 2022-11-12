@@ -1,0 +1,51 @@
+﻿var CKBUILDER_CONFIG = {
+    skin: 'moono-lisa',
+    preset: 'basic',
+    ignore: [
+        '.DS_Store',
+        '.bender',
+        '.editorconfig',
+        '.gitattributes',
+        '.gitignore',
+        '.idea',
+        '.jscsrc',
+        '.jshintignore',
+        '.jshintrc',
+        '.mailmap',
+        '.npm',
+        '.travis.yml',
+        'LICENSE',
+        'LICENSE.md',
+        'README.md',
+        'bender-err.log',
+        'bender-out.log',
+        'bender.ci.js',
+        'bender.js',
+        'dev',
+        'docs',
+        'gruntfile.js',
+        'less',
+        'node_modules',
+        'package.json',
+        'readme.md',
+        'tests'
+    ],
+    plugins: {
+        'basicstyles': 1,
+        'enterkey': 1,
+        'format': 1,
+        'link': 1,
+        'list': 1,
+        'magicline': 1,
+        'maximize': 1,
+        'table': 1,
+        'toolbar': 1,
+        'undo': 1,
+        'widget': 1,
+        'wysiwygarea': 1
+    },
+    languages: {
+        'de': 1,
+        'en': 1
+    }
+};
