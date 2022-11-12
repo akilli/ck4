@@ -20,7 +20,3 @@ Custom CKEditor 4 inline build with following plugins
 - [Section Widget](https://ckeditor.com/cke4/addon/section)
 - [Table](https://ckeditor.com/cke4/addon/table)
 - [Undo](https://ckeditor.com/cke4/addon/undo)
-
-## Demo
-
-https://akilli.github.io/ckeditor4-build-inline/demo

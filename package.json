@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "start": "npx --yes servor --reload . index.html 21000"
-  }
-}
